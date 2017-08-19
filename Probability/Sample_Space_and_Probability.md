@@ -164,4 +164,37 @@ If an experiment involves a sequence of independent but identical stages, we say
 
 Let us now consider the probability, p(k) = P(k heads come up in an n-toss sequence), which will play an important role later. We showed above that the probability of any given sequence that contains k heads is pk (1 − p)n−k , so we have
 
+## 1.6 COUNTING
+
+In what follows, we will focus primarily on two types of counting arguments that involve the selection of k objects out of a collection of n objects. If the order of selection matters, the selection is called a __permutation__, and otherwise, it is called a __combination__. 
+
+
+We start with n distinct objects, and let k be some positive integer, with k ≤ n. We wish to count the number of different ways that we can pick k out of these n objects and arrange them in a sequence, i.e., the number of distinct k-object sequences. We can choose any of the n objects to be the first one. Having chosen the first, there are only n − 1 possible choices for the second; given the choice of the first two, there only remain n − 2 available objects for the third stage, etc. When we are ready to select the last (the kth) object, we have already chosen k − 1 objects, which leaves us with n − (k − 1) choices for the last one. By the Counting Principle, the number of possible sequences, called __k-permutations__.
+
+
+To count the number of combinations, note that selecting a k-permutation is the same as first selecting a combination of k items and then ordering them. Since there are k! ways of ordering the k selected items, we see that the number of k-permutations is equal to the number of combinations times k!. Hence, the number of possible combinations, is given by 
+
+![alt](http://ictedusrv.cumbria.ac.uk/maths/SecMaths/U3/images/pic057.gif)
+
+* Permutations of n objects: n!
+* k-permutations of n objects: n!/(n − k)!
+
+## 1.7 SUMMARY AND DISCUSSION
+
+A probability problem can usually be broken down into a few basic steps:
+1. The description of the sample space, that is, the set of possible outcomes of a given experiment.
+2. The (possibly indirect) specification of the probability law (the probability of each event).
+3. The calculation of probabilities and conditional probabilities of various events of interest.
+
+The probabilities of events must satisfy the nonnegativity, additivity, and nor- malization axioms. In the important special case where the set of possible out- comes is finite, one can just specify the probability of each outcome and obtain the probability of any event by adding the probabilities of the elements of the event.
+
+Conditional probabilities can be viewed as probability laws on the same sample space. We can also view the conditioning event as a new universe, because only outcomes contained in the conditioning event can have positive condi- tional probability. Conditional probabilities are derived from the (unconditional) probability law using the definition P(A | B) = P(A ∩ B)/P(B). However, the reverse process is often convenient, that is, first specify some conditional proba- bilities that are natural for the real situation that we wish to model, and then use them to derive the (unconditional) probability law. Two important tools in this context are the multiplication rule and the total probability theorem.
+
+We have illustrated through examples three methods of specifying proba- bility laws in probabilistic models: 
+(1) The counting method. This method applies to the case where the num- ber of possible outcomes is finite, and all outcomes are equally likely. To calculate the probability of an event, we count the number of elements in the event and divide by the number of elements of the sample space.
+(2) The sequential method. This method applies when the experiment has a sequential character, and suitable conditional probabilities are specified or calculated along the branches of the corresponding tree (perhaps using the counting method). The probabilities of various events are then obtained by multiplying conditional probabilities along the corresponding paths of the tree, using the multiplication rule.
+(3) The divide-and-conquer method. Here, the probabilities P(B) of vari- ous events B are obtained from conditional probabilities P(B|Ai), where the Ai are suitable events that form a partition of the sample space and have known probabilities P(Ai). The probabilities P(B) are then obtained by using the total probability theorem.
+
+
+
 

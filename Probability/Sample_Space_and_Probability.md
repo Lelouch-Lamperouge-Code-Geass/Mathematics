@@ -96,4 +96,72 @@ Consider a probability law, and let A, B, and C be events.
 
 ## 1.3 CONDITIONAL PROBABILITY
 
+In more precise terms, given an experiment, a corresponding sample space, and a probability law, suppose that we know that the outcome is within some given event B. We wish to quantify the likelihood that the outcome also belongs to some other given event A. We thus seek to construct a new probability law, which takes into account this knowledge and which, for any event A, gives us the __conditional probability__ of A given B, denoted by P(A | B).
+
+This argument suggests that an appropriate definition of conditional probability， is
+```P(A|B)= P(A ∩ B) / P(B)```
+
+> __Properties of Conditional Probability__
+  The conditional probability of an event A, given an event B with P(B) > 0, is defined by ```P(A|B)= P(A ∩ B) / P(B)```,and specifies a new (conditional) probability law on the same sample space Ω. In particular, all known properties of probability laws remain valid for conditional probability laws.
+  Conditional probabilities can also be viewed as a probability law on a new universe B, because all of the conditional probability is concen- trated on B.
+  
+##### Using Conditional Probability for Modeling
+
+When constructing probabilistic models for experiments that have a sequential character, it is often natural and convenient to first specify conditional prob- abilities and then use them to determine unconditional probabilities. The rule P(A∩B) = P(B)P(A | B), which is a restatement of the definition of conditional probability, is often helpful in this process.
+
+We have a general rule for calculating various probabilities in conjunction with a tree-based sequential description of an experiment. In particular:
+
+* (a) We set up the tree so that an event of interest is associated with a leaf. We view the occurrence of the event as a sequence of steps, namely, the traversals of the branches along the path from the root to the leaf.  
+* (b) We record the conditional probabilities associated with the branches of the tree.  
+* (c) We obtain the probability of a leaf by multiplying the probabilities recorded along the corresponding path of the tree.  
+  
+In mathematical terms, we are dealing with an event A which occurs if and only if each one of several events A1,...,An has occurred, i.e., A = A1 ∩A2 ∩ · · · ∩ An. The occurrence of A is viewed as an occurrence of A1, followed by the occurrence of A2, then of A3, etc, and it is visualized as a path on the tree with n branches, corresponding to the events A1, . . . , An. The probability of A is given by the following rule.
+
+__Multiplication Rule.__ Assuming that all of the conditioning events have positive probability, we have
+  
+![alt](http://www.math.uwaterloo.ca/~dlmcleis/s230/graphics/s230_slidesc1_4__144.png)
+
+
+
+## 1.4 TOTAL PROBABILITY THEOREM AND BAYES’ RULE
+
+##### Total Probability Theorem
+
+In probability theory, the __aw (or formula) of total probability__ is a fundamental rule relating __marginal probabilities__ to __conditional probabilities__. It expresses the total probability of an outcome which can be realized via several distinct events—hence the name.
+
+
+
+##### Bayes’ Rule
+In probability theory and statistics, Bayes’ theorem (alternatively Bayes’ law or Bayes' rule) describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
+
+Bayes' theorem is stated mathematically as the following equation:
+
+![alt](https://wikimedia.org/api/rest_v1/media/math/render/svg/b1078eae6dea894bd826f0b598ff41130ee09c19)
+
+where A and  B are events and P(B) != 0.
+
+* P(A) and P(B) are the probabilities of observing A and  B without regard to each other.
+* P(A) and { P(B) are the probabilities of observing A and B without regard to each other.
+* P(A / B), a conditional probability, is the probability of observing event A given that  B is true.
+  
+Bayes’ rule is often used for __inference__. There are a number of “causes” that may result in a certain “effect.” We observe the effect, and we wish to infer the cause. The events A1, . . . , An are associated with the causes and the event B represents the effect. The probability P(B | Ai) that the effect will be observed when the cause Ai is present amounts to a probabilistic model of the cause-effect relation. Given that the effect B has been observed, we wish to evaluate the (conditional) probability P(Ai | B) that the cause Ai is present.
+
+## 1.5 INDEPENDENCE
+
+We have introduced the conditional probability P(A|B) to capture the partial information that event B provides about event A. An interesting and important special case arises when the occurrence of B provides no information and does not alter the probability that A has occurred, i.e., P(A|B) = P(A).
+
+When the above equality holds, we say that A is independent of B. Note that by the definition P(A | B) = P(A ∩ B)/P(B), this is equivalent to P(A ∩ B) = P(A)P(B).
+
+We adopt this latter relation as the definition of independence because it can be used even if P(B) = 0, in which case P(A|B) is undefined. The symmetry of this relation also implies that independence is a symmetric property; that is, if A is independent of B, then B is independent of A, and we can unambiguously say that A and B are __independent events__.
+
+##### Conditional Independence
+
+We noted earlier that the conditional probabilities of events, conditioned on a particular event, form a legitimate probability law. We can thus talk about independence of various events with respect to this conditional law. In particular, given an event C, the events A and B are called conditionally independent if ```P(A ∩ B|C) = P(A|C)P(B|C)```.
+
+##### Independent Trials and the Binomial Probabilities
+
+If an experiment involves a sequence of independent but identical stages, we say that we have a sequence of independent trials. In the special case where there are only two possible results at each stage, we say that we have a sequence of independent __Bernoulli trials__. The two possible results can be anything, e.g., “it rains” or “it doesn’t rain,” but we will often think in terms of coin tosses and refer to the two results as “heads” (H) and “tails” (T).
+
+
+
 

@@ -162,6 +162,6 @@ We noted earlier that the conditional probabilities of events, conditioned on a 
 
 If an experiment involves a sequence of independent but identical stages, we say that we have a sequence of independent trials. In the special case where there are only two possible results at each stage, we say that we have a sequence of independent __Bernoulli trials__. The two possible results can be anything, e.g., “it rains” or “it doesn’t rain,” but we will often think in terms of coin tosses and refer to the two results as “heads” (H) and “tails” (T).
 
-
+Let us now consider the probability, p(k) = P(k heads come up in an n-toss sequence), which will play an important role later. We showed above that the probability of any given sequence that contains k heads is pk (1 − p)n−k , so we have
 
 

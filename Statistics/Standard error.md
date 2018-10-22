@@ -1,2 +1,5 @@
 https://en.wikipedia.org/wiki/Standard_error  
 
+### Standard Deviation v Standard Error vs Standard Error of the Mean
+
+https://www.investopedia.com/ask/answers/042415/what-difference-between-standard-error-means-and-standard-deviation.asp

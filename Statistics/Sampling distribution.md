@@ -1,7 +1,7 @@
 https://en.wikipedia.org/wiki/Sampling_distribution  
 https://www.youtube.com/watch?v=z0Ry_3_qhDw  
 https://www.youtube.com/watch?v=Zbw-YvELsaM  
-
+https://www.youtube.com/watch?v=q50GpTdFYyI  
 
 In statistics, a sampling distribution or finite-sample distribution is the probability distribution of a given random-sample-based statistic. If an arbitrarily large number of samples, each involving multiple observations (data points), were separately used in order to compute one value of a statistic (such as, for example, the sample mean or sample variance) for each sample, then the sampling distribution is the probability distribution of the values that the statistic takes on. In many contexts, only one sample is observed, but the sampling distribution can be found theoretically.
 

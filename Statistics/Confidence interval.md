@@ -10,6 +10,20 @@ Factors affecting the width of the confidence interval include the size of the s
 
 Confidence intervals were introduced to statistics by Jerzy Neyman in a paper published in 1937.
 
+### What is confidence interval 
+
+Statisticians use a confidence interval to express the precision and uncertainty associated with a particular sampling method. A confidence interval consists of three parts.
+
+* A confidence level.
+* A statistic.
+* A margin of error.
+
+The confidence level describes the uncertainty of a sampling method. The statistic and the margin of error define an interval estimate that describes the precision of the method. The interval estimate of a confidence interval is defined by the sample statistic + margin of error.
+
+For example, suppose we compute an interval estimate of a population parameter. We might describe this interval estimate as a 95% confidence interval. This means that if we used the same sampling method to select different samples and compute different interval estimates, the true population parameter would fall within a range defined by the sample statistic + margin of error 95% of the time.
+
+Confidence intervals are preferred to point estimates, because confidence intervals indicate (a) the precision of the estimate and (b) the uncertainty of the estimate.
+
 ### Introduction
 
 __Interval estimates__ can be contrasted with __point estimates__. A point estimate is a single value given as the estimate of a population parameter that is of interest, for example, the mean of some quantity. An interval estimate specifies instead a range within which the parameter is estimated to lie. Confidence intervals are commonly reported in tables or graphs along with point estimates of the same parameters, to show the reliability of the estimates.

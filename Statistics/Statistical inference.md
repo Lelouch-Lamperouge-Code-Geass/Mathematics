@@ -1,4 +1,9 @@
-https://en.wikipedia.org/wiki/Statistical_inference  
+Many situations require information about a large group of elements (individuals, companies, voters, households, products, customers, and so on). But, because of time, cost, and other considerations, data can be collected from only a small portion of the group. The larger group of elements in a particular study is called the __population__, and the smaller group is called the __sample__. Formally, we use the following definitions:
+
+* POPULATION : A population is the set of all elements of interest in a particular study.  
+* SAMPLE : A sample is a subset of the population.  
+
+The process of conducting a survey to collect data for the entire population is called a census. The process of conducting a survey to collect data for a sample is called a sample survey. As one of its major contributions, statistics uses data from a sample to make estimates and test hypotheses about the characteristics of a population through a process referred to as __statistical inference__.
 
 Statistical inference is the process of using data analysis to deduce properties of an underlying probability distribution. Inferential statistical analysis infers properties of a population, for example by testing hypotheses and deriving estimates. It is assumed that the observed data set is sampled from a larger population.
 

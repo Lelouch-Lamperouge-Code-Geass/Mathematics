@@ -71,8 +71,36 @@ The subject of __data mining__ deals with methods for developing useful decision
 
 ## 3.1 Measures of Location
 
+> a measure of location, or central tendency, such as the arithmetic mean:	A fundamental task in many statistical analyses is to estimate a location parameter for the distribution; i.e., to find a typical or central value that best describes the data.
+
+#### Mean
+
 Perhaps the most important measure of location is the mean, or average value, for a variable. The mean provides a measure of central location for the data. If the data are for a sample, the mean is denoted by ```x ̄```; if the data are for a population, the mean is denoted by the Greek letter ```μ```.
 
 In statistical formulas, it is customary to denote the value of variable x for the first ob- servation by x<sub>1</sub>, the value of variable x for the second observation by x<sub>2</sub>, and so on. In gen- eral, the value of variable x for the ith observation is denoted by x<sub>i</sub>. For a sample with n observations, the formula for the sample mean is as follows.
 
-$\sum_{i=1}^{10} t_i$
+<img src="https://github.com/Lelouch-Lamperouge-Code-Geass/Mathematics/blob/master/Statistics/Book%20Notes/statistics%20for%20business%20and%20economics/Photos/1.png">
+
+The formula for computing the mean of a population remains the same, but we use different notation to indicate that we are working with the entire population. The number of observations in a population is denoted by N and the symbol for a population mean is ```μ```.
+
+<img src="https://github.com/Lelouch-Lamperouge-Code-Geass/Mathematics/blob/master/Statistics/Book%20Notes/statistics%20for%20business%20and%20economics/Photos/2.png">
+
+#### Median
+
+The median is another measure of central location. The median is the value in the middle when the data are arranged in ascending order (smallest value to largest value). With an odd number of observations, the median is the middle value. An even number of observations has no single middle value. In this case, we follow convention and define the median as the average of the values for the middle two observations. For convenience the definition of the median is restated as follows.
+
+Arrange the data in ascending order (smallest value to largest value).
+
+* For an odd number of observations, the median is the middle value.
+* For an even number of observations, the median is the average of the two middle values.
+
+Although the mean is the more commonly used measure of central location, in some situations the median is preferred. The mean is influenced by extremely small and large data values. We can generalize to say that whenever a data set contains extreme values, the median is often the preferred measure of central location.
+
+#### Mode
+
+> Mode : The mode is the value that occurs with greatest frequency.
+
+Situations can arise for which the greatest frequency occurs at two or more different values. In these instances more than one mode exists. If the data contain exactly two modes, we say that the data are bimodal. If data contain more than two modes, we say that the data are multimodal. In multimodal cases the mode is almost never reported because listing three or more modes would not be particularly helpful in describing a location for the data.
+
+
+

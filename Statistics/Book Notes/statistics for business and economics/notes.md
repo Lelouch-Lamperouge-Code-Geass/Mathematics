@@ -67,5 +67,12 @@ The subject of __data mining__ deals with methods for developing useful decision
 * Statistical inference : The process of using data obtained from a sample to make estimates or test hypotheses about the characteristics of a population.
 * Data mining : The process of using procedures from statistics and computer science to ex- tract useful information from extremely large databases.
 
-# Chapter 02 Descriptive Statistics: Tabular and Graphical Presentations
+# Chapter 03 Descriptive Statistics: Numerical Measures
 
+## 3.1 Measures of Location
+
+Perhaps the most important measure of location is the mean, or average value, for a variable. The mean provides a measure of central location for the data. If the data are for a sample, the mean is denoted by ```x ̄```; if the data are for a population, the mean is denoted by the Greek letter ```μ```.
+
+In statistical formulas, it is customary to denote the value of variable x for the first ob- servation by x<sub>1</sub>, the value of variable x for the second observation by x<sub>2</sub>, and so on. In gen- eral, the value of variable x for the ith observation is denoted by x<sub>i</sub>. For a sample with n observations, the formula for the sample mean is as follows.
+
+$\sum_{i=1}^{10} t_i$

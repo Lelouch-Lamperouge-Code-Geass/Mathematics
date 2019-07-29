@@ -103,4 +103,44 @@ Although the mean is the more commonly used measure of central location, in some
 Situations can arise for which the greatest frequency occurs at two or more different values. In these instances more than one mode exists. If the data contain exactly two modes, we say that the data are bimodal. If data contain more than two modes, we say that the data are multimodal. In multimodal cases the mode is almost never reported because listing three or more modes would not be particularly helpful in describing a location for the data.
 
 
+#### Percentiles
 
+A percentile provides information about how the data are spread over the interval from the smallest value to the largest value. For data that do not contain numerous repeated values, the pth percentile divides the data into two parts. Approximately p percent of the observa- tions have values less than the pth percentile; approximately (100 - p) percent of the ob- servations have values greater than the pth percentile. The pth percentile is formally defined as follows.
+
+> PERCENTILE : The pth percentile is a value such that at least p percent of the observations are less than or equal to this value and at least (100 􏰁 p) percent of the observations are greater than or equal to this value.
+
+#### Quartiles
+
+It is often desirable to divide data into four parts, with each part containing approximately one-fourth, or 25% of the observations. The division points are referred to as the quartiles and are defined as
+
+```
+Q1 : first quartile, or 25th percentile
+Q2 : second quartile, or 50th percentile (also the median) 
+Q3 : third quartile, or 75th percentile
+```
+
+## 3.2 Measures of Variability
+
+#### Range
+
+The simplest measure of variability is the range : ```Range = Largest value - Smallest value```.
+
+#### Interquartile Range
+
+A measure of variability that overcomes the dependency on extreme values is the inter- quartile range (IQR). This measure of variability is the difference between the third quar- tile, Q3, and the first quartile, Q1. In other words, the interquartile range is the range for the middle 50% of the data. ```INTERQUARTILE RANGE
+IQR = Q3 - Q1```.
+
+#### Variance
+
+The variance is a measure of variability that utilizes all the data. The variance is based on the difference between the value of each observation (x<sub>i</sub> ) and the mean. The difference between each x<sub>i</sub>  and the mean (x ̄ for a sample, μ for a population) is called a deviation about the mean. For a sample, a deviation about the mean is written (x<sub>i</sub>  - x ̄ ); for a population, it is written (x<sub>i</sub> - μ). In the computation of the variance, the deviations about the mean are squared.
+
+
+If the data are for a population, the average of the squared deviations is called the population variance. The population variance is denoted by the Greek symbol σ<sup>2</sup>. For a population of N observations and with μ denoting the population mean, the definition of the population variance is as follows.
+
+<img src="https://github.com/Lelouch-Lamperouge-Code-Geass/Mathematics/blob/master/Statistics/Book%20Notes/statistics%20for%20business%20and%20economics/Photos/3.4.png">
+
+In most statistical applications, the data being analyzed are for a sample. When we compute a sample variance, we are often interested in using it to estimate the population variance σ<sup>2</sup>. Although a detailed explanation is beyond the scope of this text, it can be shown that if the sum of the squared deviations about the sample mean is divided by n - 1, and not n, the resulting sample variance provides an unbiased estimate of the population variance. For this reason, the sample variance, denoted by s<sup>2</sup>, is defined as follows.
+
+<img src="https://github.com/Lelouch-Lamperouge-Code-Geass/Mathematics/blob/master/Statistics/Book%20Notes/statistics%20for%20business%20and%20economics/Photos/3.5.png">
+
+#### Standard Deviation

@@ -144,3 +144,6 @@ In most statistical applications, the data being analyzed are for a sample. When
 <img src="https://github.com/Lelouch-Lamperouge-Code-Geass/Mathematics/blob/master/Statistics/Book%20Notes/statistics%20for%20business%20and%20economics/Photos/3.5.png">
 
 #### Standard Deviation
+
+The standard deviation is defined to be the positive square root of the variance. Following the notation we adopted for a sample variance and a population variance, we use s to denote the sample standard deviation and σ to denote the population standard deviation. The standard deviation is derived from the variance in the following way.
+
